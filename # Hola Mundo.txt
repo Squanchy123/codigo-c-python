@@ -1,0 +1,73 @@
+# Hola Mundo
+print("Hola Mundo")
+
+# Imprimir un tipo de dato
+numero = 69
+numero2 = 85.25
+nombre = "Evert"
+letra = 'E'
+resultado = True
+
+print("Mi nombre es:", nombre)
+
+# Trabajando con Cadena de texto
+nombre = "Evert Cuevas"
+apellido = nombre[6:12]
+nombre = nombre[:6] + 'M' + nombre[7:]
+
+print("Mi nombre es:", nombre, "mi apellido es:", apellido)
+
+# Valor Constante
+nota = 65
+print("Mi nota es:", nota)
+
+# Solicitar Información
+nota = int(input("Introducir nota: "))
+nombre = input("Introducir nombre: ")
+
+print("Mi nota es:", nota)
+print("Mi nombre es:", nombre)
+
+# Arrays
+# array ya lleno
+nota = [23, 45, 76, 34]
+
+print("Mi nombre es:", nota[2])
+
+# array vacío
+nota = [0] * 10
+nota[2] = 30
+
+print("Mi nota es:", nota[2])
+
+# Procedimientos
+def sumar(numero1, numero2):
+    resultado = numero1 + numero2
+    print(resultado)
+
+def saludar(nombre):
+    print("Hola mi nombre es:", nombre)
+
+numero1 = 10
+numero2 = 20
+
+sumar(numero1, numero2)
+
+nombre = "Evert"
+saludar(nombre)
+
+# Funciones
+def sumar(numero1, numero2):
+    resultado = numero1 + numero2
+    return resultado
+
+numero1 = 10
+numero2 = 20
+
+suma = sumar(numero1, numero2)
+suma2 = sumar(84, 2)
+suma3 = sumar(numero1, 10)
+
+print("La suma es:", suma)
+print("La suma es:", suma2)
+print("La suma es:", suma3)
